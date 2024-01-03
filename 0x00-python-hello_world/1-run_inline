@@ -1,2 +1,3 @@
 #!/bin/bash
-python3 <<< $PYCODE
+//to ensure that I run a python code
+echo $PYCODE | python3
