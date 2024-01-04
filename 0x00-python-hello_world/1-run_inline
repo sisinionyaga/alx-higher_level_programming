@@ -1,3 +1,2 @@
 #!/bin/bash
-//to ensure that I run a python code
-echo $PYCODE | python3
+python3 <<< $PYCODE
